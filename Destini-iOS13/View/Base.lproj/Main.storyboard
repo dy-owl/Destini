@@ -58,6 +58,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="I7W-YB-zzd" secondAttribute="trailing" id="qkK-ay-FKk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1Button" destination="bqW-ZD-4TY" id="TPF-hj-DQe"/>
+                        <outlet property="choice2Button" destination="7Qe-cf-s8a" id="HzQ-Ui-Wv2"/>
+                        <outlet property="storyLabel" destination="Uyu-5P-Mi1" id="3Yo-q3-l7Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
